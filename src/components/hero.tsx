@@ -1,5 +1,4 @@
 'use client'
-import { FormEvent, useState } from "react"
 import Preregister from "./pre-register"
 
 

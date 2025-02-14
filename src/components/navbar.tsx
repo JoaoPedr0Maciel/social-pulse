@@ -1,7 +1,6 @@
 'use client'
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Github } from "lucide-react"
 import Preregister from "./pre-register"
 
 export default function Navbar() {

@@ -1,5 +1,5 @@
-import { BarChart2, Clock, LetterText, Plus, Users, Zap } from "lucide-react"
-import { Webhook, BarChart } from "lucide-react"
+import { BarChart2, LetterText, Plus, Users, Zap } from "lucide-react"
+import { BarChart } from "lucide-react"
 
 const features = [
   {
