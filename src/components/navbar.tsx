@@ -6,11 +6,11 @@ import Preregister from "./pre-register"
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 max-w-screen-2xl items-center">
+      <div className="container max-sm:flex max-sm:justify-between flex h-14 max-w-screen-2xl items-center">
         <Link href="#home" className="mr-6 flex items-center space-x-2">
           <span className="font-bold">SocialPulse</span>
         </Link>
-        <nav className="flex flex-1 items-center space-x-6 text-sm font-medium">
+        <nav className="hidden md:flex flex-1 items-center space-x-6 text-sm font-medium">
           <Link href="#funcionalidades" className="transition-colors hover:text-primary">
             Funcionalidades
           </Link>
@@ -24,7 +24,9 @@ export default function Navbar() {
               Contato
             </Link>
           </Button>
-          <Preregister buttonText="Iniciar" />
+          <div className="hidden lg:flex">
+            <Preregister buttonText="Iniciar" />
+          </div>
         </div>
       </div>
     </header>
